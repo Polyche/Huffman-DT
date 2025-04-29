@@ -1,0 +1,87 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #f4f7f6;
+  margin: 0;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  max-width: 1200px;
+  width: 100%;
+  background: #fff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0px 4px 12px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+p {
+  font-size: 1.2rem;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.message {
+  width: 100%;
+  max-width: 600px;
+  padding: 12px;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  font-size: 1rem;
+}
+
+.output-empty, .output {
+  margin-top: 20px;
+  font-size: 1rem;
+}
+
+.output-empty {
+  color: #ff5722;
+}
+
+.output {
+  color: #4caf50;
+}
+
+/* D3 Tree Specific */
+.node circle {
+  fill: #fff;
+  stroke: #2196f3;
+  stroke-width: 3px;
+}
+
+.node text {
+  font: 14px 'Segoe UI', sans-serif;
+  fill: #333;
+}
+
+.link {
+  fill: none;
+  stroke: #bbb;
+  stroke-width: 2px;
+}
+
+/* Process button (if needed later) */
+.process-button {
+  border: none;
+  background-color: #2196f3;
+  color: white;
+  padding: 10px 20px;
+  margin-top: 15px;
+  font-size: 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.process-button:hover {
+  background-color: #1976d2;
+}
